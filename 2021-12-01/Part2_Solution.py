@@ -19,4 +19,4 @@ grouped_depths_increase = 0
 for i in range(1, len(grouped_depths)):
     if grouped_depths[i - 1] < grouped_depths[i]:
         grouped_depths_increase += 1
-print("Grouped depths increased: ", int(grouped_depths_increase))
+print("Grouped depths increased: ", grouped_depths_increase)
